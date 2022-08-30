@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  krakend:
+    container_name: krakend_test1
+    image: devopsfaith/krakend:latest
+    ports:
+      - "8080:8080"
+    volumes:
+      - $PWD/krakend_test.json:/etc/krakend/krakend.json

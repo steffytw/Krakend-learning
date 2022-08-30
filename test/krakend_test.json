@@ -1,0 +1,22 @@
+{
+    "version": 3,
+    "endpoints": [{
+          "endpoint": "/v1/foo-bar",
+          "backend": [
+            {
+              "url_pattern": "/foo",
+              "host": [
+                "https://my.foo-api.com"
+              ]
+            },
+            {
+              "url_pattern": "/bar",
+              "host": [
+                "https://my.bar-api.com"
+              ]
+            }
+          ]
+        }
+    ],
+    "extra_config": {}
+}
