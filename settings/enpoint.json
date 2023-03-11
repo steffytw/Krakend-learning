@@ -2,7 +2,7 @@
     "example_group": [
         {
             "endpoint": "/users/{id}",
-            "backend": "/v1/users?userId={id}"
+            "backend": "/api/v1/employee/{id}"
         },
         {
             "endpoint": "/posts/{id}",
